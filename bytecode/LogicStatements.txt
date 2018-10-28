@@ -1,0 +1,24 @@
+Compiled from "LogicStatements.java"
+public class LogicStatements {
+  public LogicStatements();
+    Code:
+       0: aload_0
+       1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: iconst_1
+       1: istore_1
+       2: iconst_0
+       3: istore_2
+       4: iload_1
+       5: ifeq          16
+       8: iload_2
+       9: ifeq          16
+      12: iconst_1
+      13: goto          17
+      16: iconst_0
+      17: istore_3
+      18: return
+}
