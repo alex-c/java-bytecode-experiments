@@ -1,0 +1,36 @@
+Compiled from "LoopInvariantCodeMotion.java"
+public class Optimization.LoopInvariantCodeMotion {
+  public Optimization.LoopInvariantCodeMotion();
+    Code:
+       0: aload_0
+       1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public int Method();
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: iconst_0
+       3: istore_2
+       4: iconst_1
+       5: istore_3
+       6: iconst_2
+       7: istore        4
+       9: iconst_0
+      10: istore        5
+      12: goto          27
+      15: iload_3
+      16: iload         4
+      18: iadd
+      19: istore_2
+      20: iload_1
+      21: iload_2
+      22: iadd
+      23: istore_1
+      24: iinc          5, 1
+      27: iload         5
+      29: bipush        10
+      31: if_icmplt     15
+      34: iload_1
+      35: ireturn
+}
